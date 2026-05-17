@@ -8,8 +8,10 @@
             </li>
         </ul>
         <div class="navbar-collapse justify-content-end px-0" id="navbarNav">
-            <ul class="navbar-nav flex-row ms-auto align-items-center justify-content-end">
-                <p class="pt-3">Anda Login Sebagai, <?= session()->get('akses') ?></p>
+            <div class="admin-header-user ms-auto">
+                <p class="admin-header-role mb-0">Anda Login Sebagai, <?= session()->get('akses') ?></p>
+            </div>
+            <ul class="navbar-nav admin-header-actions ms-auto align-items-center justify-content-end">
                 <li class="nav-item dropdown">
                     <a class="nav-link nav-icon-hover" href="javascript:void(0)" id="drop2" data-bs-toggle="dropdown" aria-expanded="false">
                         <img src="/assets/images/profile/user-1.jpg" alt="" width="35" height="35" class="rounded-circle">

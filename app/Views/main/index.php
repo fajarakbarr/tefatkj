@@ -28,7 +28,7 @@
         <?= $this->include('layout/sidebar'); ?>
         <!--  Sidebar End -->
         <!--  Main wrapper -->
-        <div class="body-wrapper vh-100">
+        <div class="body-wrapper admin-body-wrapper min-vh-100">
             <!--  Header Start -->
             <?= $this->include('layout/header'); ?>
             <!--  Header End -->

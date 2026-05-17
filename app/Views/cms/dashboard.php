@@ -22,6 +22,9 @@
                     <a class="nav-link text-light" href="#kontak">Kontak</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link text-light" href="https://cloud.compaque.my.id" target="_blank" rel="noopener noreferrer">Kolaborasi</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link text-light btn-dashboard" href="/dashboard"><i class="ti ti-layout-dashboard me-2 fs-6"></i>Login</a>
                 </li>
             </ul>
